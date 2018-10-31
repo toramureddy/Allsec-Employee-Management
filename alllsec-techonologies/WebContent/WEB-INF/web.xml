@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app>
+
+ <welcome-file-list>  
+   <welcome-file>employeedetails.html</welcome-file>   
+  </welcome-file-list>
+
+  <servlet>
+    <servlet-name>control</servlet-name>
+    <servlet-class>com.allsec_employee_details.RigisterController1</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>control</servlet-name>
+    <url-pattern>/servlet1</url-pattern>
+  </servlet-mapping> 
+   <servlet>
+    <servlet-name>control1</servlet-name>
+    <servlet-class>com.allsec_employee_details.Getrecords</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>control1</servlet-name>
+    <url-pattern>/getemp</url-pattern>
+  </servlet-mapping>
+  
+
+</web-app> 
